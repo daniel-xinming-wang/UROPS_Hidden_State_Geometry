@@ -28,23 +28,27 @@ The pipeline consists of two main stages:
 Hidden states are generated using:
 
 MMMU:
-```scripts/embed_mmmu.sh
+```bash
+bash scripts/embed_mmmu.sh
 ```
 
 MathVision:
-```bash scripts/embed.sh
+```bash
+bash scripts/embed.sh
 ```
+
 
 ## Step 2: Representation geometry analysis
 
 After hidden states are generated, run:
 
 MMMU:
-```python AnalyzeRank.py
+```python
+python AnalyzeRank.py
 ```
 
 MathVision:
-```
+```python
 python AnalyzeRank_mathv.py
 ```
 
